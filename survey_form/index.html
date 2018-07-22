@@ -1,0 +1,114 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div id="main">
+		<h1 id="title">Survey Form</h1>
+		<div id="formdiv">
+		<p id="description">Let us know how we can improve our menu</p>
+
+		<form id="survey-form">
+
+				<div id="one" class="field">
+					<div class="left">
+						<label id="name-label" for="name">*Name</label>
+					</div>
+					<div class="right">
+						<input id="name" type="text" name="name" placeholder="Enter your name" required>
+					</div>
+				</div>
+				<br>
+				<div id="two" class="field">
+					<div class="left">
+						<label id="email-label" for="email">*Email</label>
+					</div>
+					<div class="right">
+						<input id="email" type="email" name="email" placeholder="Enter your email" required>
+					</div>
+				</div>
+				<br>
+				<div id="three" class="field">
+					<div class="left">
+						<label id="number-label" for="age">*Age</label>
+					</div>
+					<div class="right">
+						<input id="number" type="number" name="age" min="0" max="100" placeholder="Enter your age" required>
+					</div>
+				</div>
+				<br>
+				<div id="role-list" class="field">
+					<div class="left">
+						<label id="role" for="dropdown">Which option best describes your current role?</label>
+					</div>
+					<div id="dropdowndiv1" class="right">
+						<select id="dropdown">
+							<option value="" disabled>Select one option</option>
+							<option value="Student">Student</option>
+							<option value="Full Time Job">Full Time Job</option>
+							<option value="Full Time Learner">Full Time Learner</option>
+							<option value="Prefer not to say">Prefer not to say</option>
+							<option value="Other">Other</option>
+						</select>
+					</div>
+				</div>
+				<div id="recommendation" class="field">
+					<div class="left">
+						<label for="name">*How likely is that you would recommend our restaurant to a friend?</label>
+					</div>
+					<div class="right">
+						<input type="radio" name="group1" value="Definitely"> Definitely<br>
+						<input type="radio" name="group1" value="Maybe"> Maybe<br>
+						<input type="radio" name="group1" value="Not Sure"> Not Sure<br>
+					</div>
+				</div>
+				<div id="dropdown2" class="field">
+					<div class="left">
+						<label for="menu">What do you like most in our menu?</label>
+					</div>
+					<div class="right">
+						<select id="dropdown2">
+							<option value="" disabled>Select one option</option>
+							<option value="Pizza">Pizza</option>
+							<option value="Ribs on fire">Ribs on fire</option>
+							<option value="Burger menu">Burger menu</option>
+							<option value="Salad bar">Salad bar</option>
+							<option value="Desserts">Desserts</option>
+						</select>
+					</div>
+				</div>
+				<div id="Checkbox" class="field">
+					<div class="left">
+						<label for="things">Things that should be improved in the future
+						(Check all that apply):</label>
+					</div>
+					<div class="right">
+						<fieldset id="frame">
+							<input type="checkbox" name="thing" value="Service">Service<br>
+							<input type="checkbox" name="thing" value="Menu">Menu<br>
+							<input type="checkbox" name="thing" value="Restaurant design">Restaurant design<br>
+							<input type="checkbox" name="thing" value="working hours">Working hours<br>
+							<input type="checkbox" name="thing" value="Location">Location<br>
+							<input type="checkbox" name="thing" value="Nothing to improve">Nothing to improve<br>
+						</fieldset>
+					</div>
+				</div>
+					<div id="feedback" class="field">
+						<div class="left">
+							<label for="feedback">Any Comments or Suggestions?</label>
+						</div>
+						<div class="right">
+							<textarea id="feedback" name="comments" placeholder="Enter your comments here..."></textarea>
+						</div>
+						<div id="button">
+							<button id="submit" type="submit">Submit</button>
+						</div>
+					</div>
+
+		</form>
+	</div>
+		</div>
+</body>
+</html>
