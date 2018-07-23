@@ -1,0 +1,50 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+    }
+}
+body {
+	background-color: #a1e2ea;
+	font-family; fantacy;
+	margin: 0;
+
+}
+ul {
+	display: flex;
+	list-style-type: none;
+}
+#header {
+position: fixed;
+top: 0;
+display: flex;
+margin: 0;
+overflow: hidden;
+background-color: #bcd5d8;
+justify-content:  space-beetwen;
+width: 100%;
+}
+#header-img {
+width: 30%;
+height: 15%;
+margin-left: 5%;
+align-items: center;
+	}
+#nav-bar {
+align-items: center;
+font-family: Garamond;
+font-size: 20px;
+font-weight: bold;
+font-style: italic;
+width: 40%;
+}
+.nav-link:hover {
+	background-color: white;
+}
+
+.nav-link {
+padding: 0 1em 0 1em;
+
+}
+li {
+
+}
