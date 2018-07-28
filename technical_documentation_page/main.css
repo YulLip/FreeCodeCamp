@@ -9,7 +9,6 @@
 .nav-link {
 	border-bottom: 2px solid gray;
 	width: 300px;
-
 }
 @media screen and (max-width: 600px) {
 	body {
